@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ body > header {
+     background-color: #2f3640;
+     padding: 16px 0;
+     color: #f5f6fa;
+ }
+ 
+ header .container {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ header li {
+     display: inline;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     margin-left: 16px;
+ }
+ 
+ header li a {
+     color: #f5f6fa;
+     text-decoration: none;
+ }
+ 
+ .container {
+     width: 1366px;
+     margin:0 auto;
+ }
+ 
+ .articles {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+ 
+ .articles article img {
+     /*height: 180px; */
+     width: 100%;
+ }
+ 
+ .articles article {
+     width: 30%;
+ }
+ 
+ section {
+     padding: 16px 0;
+ }
+ 
+ section h2,
+ .articles article {
+     margin-bottom: 16px;
+ }
+ .articles article h3 {
+     margin-top: 8px;
+     margin-bottom: 8px;
+ }
+ .articles article a {
+     background-color: blue;
+     color: #fff;
+     padding: 8px;
+     display: inline-block;
+     text-decoration: none;
+     font-weight: bold;
+     margin-top: 8px;
+ }
+ 
+ .articles article a:hover {
+     text-decoration: underline;
+ 
+ }
+ 
+ .articles article p
+ .articles article a {   
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .articles article h3 {
+     font-size: 24px;
+ }
+ 
+ section h2 {
+ font-size: 32px;
+ }
+ 
+ #sports {
+ background-color: rgba(0, 255, 0, 0.1)
+ }
+ 
+ #sports .articles article a {
+     background-color: #009432;
+ }
+ 
+ #economy {
+     background-color: #f8f59f;
+ }
+ 
+ #economy .articles article a {
+     background-color: #ff9f1a;
+ }
+ 
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #f9f9f9;
+     color: #333;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ /* Container principal */
+ .container {
+     width: 90%;
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 20px;
+ }
+ 
+ /* Seção de Entretenimento */
+ #entertainment.entertainment-section {
+     background-color: #ffefd5;
+     padding: 20px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+ }
+ 
+ #entertainment h2 {
+     color: #ff6347;
+     font-size: 2em;
+     margin-bottom: 20px;
+ }
+ 
+ #entertainment .articles article {
+     background-color: #fff;
+     border: 1px solid #f0c0b0;
+     border-radius: 8px;
+     padding: 15px;
+     margin-bottom: 15px;
+     transition: transform 0.3s ease;
+ }
+ 
+ #entertainment .articles article:hover {
+     transform: scale(1.02);
+ }
+ 
+ #entertainment .articles article img {
+     width: 100%;
+     border-radius: 5px;
+ }
+ 
+ #entertainment .articles article h3 {
+     color: #d2691e;
+     margin: 15px 0 10px;
+ }
+ 
+ #entertainment .articles article p {
+     color: #666;
+ }
+ 
+ #entertainment .articles article a {
+     color: #ff6347;
+     text-decoration: none;
+     font-weight: bold;
+ }
+ 
+ #entertainment .articles article a:hover {
+     text-decoration: underline;
+ }
+ 
+ /* Seção de Tecnologia */
+ #technology.technology-section {
+     background-color: #e6f7ff;
+     padding: 20px;
+     border-radius: 10px;
+ }
+ 
+ #technology h2 {
+     color: #1e90ff;
+     font-size: 2em;
+     margin-bottom: 20px;
+ }
+ 
+ #technology .articles article {
+     background-color: #fff;
+     border: 1px solid #b0d4f0;
+     border-radius: 8px;
+     padding: 15px;
+     margin-bottom: 15px;
+     transition: transform 0.3s ease;
+ }
+ 
+ #technology .articles article:hover {
+     transform: scale(1.02);
+ }
+ 
+ #technology .articles article img {
+     width: 100%;
+     border-radius: 5px;
+ }
+ 
+ #technology .articles article h3 {
+     color: #0073e6;
+     margin: 15px 0 10px;
+ }
+ 
+ #technology .articles article p {
+     color: #666;
+ }
+ 
+ #technology .articles article a {
+     color: #1e90ff;
+     text-decoration: none;
+     font-weight: bold;
+ }
+ 
+ #technology .articles article a:hover {
+     text-decoration: underline;
+ }
+ 
+ /* Estilização dos elementos de tempo */
+ header time {
+     display: block;
+     font-size: 0.9em;
+     color: #888;
+     margin-bottom: 10px;
+ }
+ 
